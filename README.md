@@ -2,6 +2,11 @@
 
 This framework of the demo can detect the unseen human action by tri-model fusion CLIP framework, which source from the unpublished work from youhan. And in this assignment I combined this unseen HAR framework with the server-client system to realize adding a new action while it runs by describing it in plain words: the description goes to an LLM which turns it into a CLIP prompt, and the server registers it on the fly. No retraining.
 
+This framework can be run in: 
+1. Webcam real-time detection
+2. Curl offline validation by the images
+All of the above methods can show the unseen action recognition ability.
+
 ## Run it
 
 ```bash
