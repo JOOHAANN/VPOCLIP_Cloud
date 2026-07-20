@@ -35,7 +35,7 @@ big for GitHub), so a fresh clone won't do real inference until you add them.
 Download the archive from the cloud drive and unzip it inside `VPOCLIP_Cloud/`
 so the files land under `local_models/` and `work_dir/`.
 
-> 📦 **Download:** _<paste the cloud-drive link here>_
+> 📦 **Download:** https://unigeit-my.sharepoint.com/:f:/g/personal/youhan_li_edu_unige_it/IgCvy13OE-UuRbmz3mRBu3QiAehLeNgDSC1gdytd7QZw1Mo?e=AeHTDs
 
 Layout after unzipping:
 
