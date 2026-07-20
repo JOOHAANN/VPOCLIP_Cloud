@@ -58,7 +58,7 @@ outputs:
   work_dir: ./work_dir/clipgcn_contrastive_50_5
   auto_run_dir: true
   run_name: null
-  best_model: ./work_dir/clipgcn_contrastive_50_5/run_20260616_210139/best_model_new.pth
+  best_model: ./work_dir/clipgcn_contrastive_50_5/run_20260616_210139/best_model_old.pth
   last_model: ./work_dir/clipgcn_contrastive_50_5/last_model.pth
   history: ./work_dir/clipgcn_contrastive_50_5/history.json
   train_curve: ./work_dir/clipgcn_contrastive_50_5/train_curve.png

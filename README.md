@@ -49,7 +49,7 @@ VPOCLIP_Cloud/
 └── work_dir/
     └── clipgcn_contrastive_50_5/
         └── run_20260616_210139/
-            └── best_model_new.pth         # trained CLIPGCN head (~346 MB)
+            └── best_model_old.pth         # trained CLIPGCN head (~387 MB)
 ```
 
 If the weights (or their imports) are missing the server still starts, just in
