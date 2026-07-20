@@ -11,6 +11,8 @@ cp .env.example .env      # put your OpenAI key in .env
 uvicorn server.main:app --host 0.0.0.0 --port 8000
 ```
 
+First run? You need the model weights too — see [Weights & model files](#weights--model-files) below. Without them the server still boots, but only in mock mode.
+
 Full list of endpoints and a test page: http://127.0.0.1:8000/docs
 
 Webcam client (in another terminal):
@@ -20,6 +22,38 @@ python client/webcam_client.py --server http://127.0.0.1:8000
 ```
 
 Keys in the window: `a` add an action, `r` get a report, `q` quit.
+
+## Weights & model files
+
+The model weights and the large assets are **not** in this repo (they are too
+big for GitHub), so a fresh clone won't do real inference until you add them.
+Download the archive from the cloud drive and unzip it inside `VPOCLIP_Cloud/`
+so the files land under `local_models/` and `work_dir/`.
+
+> 📦 **Download:** _<paste the cloud-drive link here>_
+
+Layout after unzipping:
+
+```
+VPOCLIP_Cloud/
+├── local_models/
+│   ├── pose_landmarker_full.task          # MediaPipe pose  (~9 MB)
+│   ├── yolov5m.pt                         # YOLOv5m detector (~41 MB)
+│   └── clip/
+│       └── ViT-B-32.pt                    # CLIP encoder     (~338 MB)
+└── work_dir/
+    └── clipgcn_contrastive_50_5/
+        └── run_20260616_210139/
+            └── best_model_new.pth         # trained CLIPGCN head (~346 MB)
+```
+
+If the weights (or their imports) are missing the server still starts, just in
+**mock mode**: `/recognize` returns random predictions so you can still try the
+API. `GET /health` will show `mock_mode: true` in that case.
+
+The X3D and CTR-GCN backbone checkpoints are not part of this folder — they live
+in their own repos, at the paths referenced in `server/pipeline.py` and
+`test_raw_end_to_end.py`.
 
 ## Endpoints
 
