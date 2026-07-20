@@ -1,0 +1,59 @@
+id,label,name,enabled,split,score_scale,score_bias
+A01,0,eating food with a fork,true,seen,1,0
+A02,1,pouring water into a cup,true,seen,1,0
+A03,2,taking medicine,true,seen,1,0
+A04,3,drinking water,true,seen,1,0
+A05,4,putting food in the fridge/taking food from the fridge,false,seen,1,0
+A06,5,trimming vegetables,false,seen,1,0
+A07,6,peeling fruit,false,seen,1,0
+A08,7,using a gas stove,true,seen,1,0
+A09,8,cutting vegetable on the cutting board,false,seen,1,0
+A10,9,brushing teeth,true,seen,1,0
+A11,10,washing hands,true,seen,1,0
+A12,11,washing face,true,seen,1,0
+A13,12,wiping face with a towel,false,seen,1,0
+A14,13,putting on cosmetics,false,seen,1,0
+A15,14,putting on lipstick,false,seen,1,0
+A16,15,brushing hair,false,seen,1,0
+A17,16,blow drying hair,false,seen,1,0
+A18,17,putting on a jacket,true,seen,1,0
+A19,18,taking off a jacket,false,seen,1,0
+A20,19,putting on/taking off shoes,false,seen,1,0
+A21,20,putting on/taking off glasses,false,seen,1,0
+A22,21,washing the dishes,false,seen,1,0
+A23,22,vacuuming the floor,false,seen,1,0
+A24,23,scrubbing the floor with a rag,false,seen,1,0
+A25,24,wiping off the dinning table,false,seen,1,0
+A26,25,rubbing up furniture,false,seen,1,0
+A27,26,spreading bedding/folding bedding,false,seen,1,0
+A28,27,washing a towel by hands,false,seen,1,0
+A29,28,hanging out laundry,false,seen,1,0
+A30,29,looking around for something,false,seen,1,0
+A31,30,using a remote control,false,seen,1,0
+A32,31,reading a book,true,seen,1,0
+A33,32,reading a newspaper,false,seen,1,0
+A34,33,handwriting,false,seen,1,0
+A35,34,talking on the phone,false,seen,1,0
+A36,35,playing with a mobile phone,false,seen,1,0
+A37,36,using a computer,false,seen,1,0
+A38,37,smoking,false,seen,1,0
+A39,38,clapping,false,seen,1,0
+A40,39,rubbing face with hands,false,seen,1,0
+A41,40,doing freehand exercise,false,seen,1,0
+A42,41,doing neck roll exercise,false,seen,1,0
+A43,42,massaging a shoulder oneself,false,seen,1,0
+A44,43,taking a bow,false,seen,1,0
+A45,44,talking to each other,false,seen,1,0
+A46,45,handshaking,false,seen,1,0
+A47,46,hugging each other,false,seen,1,0
+A48,47,fighting each other,false,seen,1,0
+A49,48,waving a hand,false,seen,1,0
+A50,49,flapping a hand up and down (beckoning),false,seen,1,0
+A51,50,pointing with a finger,false,seen,1,0
+A52,51,opening the door and walking in,false,seen,1,0
+A53,52,fallen on the floor,true,seen,1,-0.05
+A54,53,sitting up/standing up,true,seen,1,0
+A55,54,lying down,true,seen,1,0
+A56,55,eating biscuits,false,unseen,1,0
+A57,56,asking for help / distress gestures,false,unseen,1,0
+A58,57,opening the front door,false,unseen,1,0

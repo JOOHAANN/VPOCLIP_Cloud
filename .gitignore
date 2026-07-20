@@ -1,0 +1,29 @@
+# secrets - never commit the real keys
+.env
+
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# datasets and raw videos (too big for git)
+data/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.zip
+
+# model weights / assets - download these separately
+local_models/
+weights/
+*.pt
+*.pth
+*.task
+*.onnx
+
+# training outputs
+runs/
+work_dir/
